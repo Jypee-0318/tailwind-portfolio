@@ -21,8 +21,8 @@ document.querySelectorAll('.nav-link').forEach(link => {
 
   document.getElementById('downloadCV').addEventListener('click', function () {
     // File path to the CV
-    const filePath = '/assets/DelaCruz.JP.RESUME.pdf';
-    const fileName = 'DelaCruz_JP_RESUME.pdf';
+    const filePath = '/DelaCruz.JP.RESUME.pdf';
+    const fileName = 'DelaCruz.JP.RESUME.pdf';
   
     // Create a temporary anchor element
     const a = document.createElement('a');
